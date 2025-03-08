@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Root Widget of CircleCursor. Use this widget to replace the default mouse cursor with a smooth and customizable circular pointer.
 class CircleCursor extends StatefulWidget {
   const CircleCursor({
     super.key,
@@ -12,12 +13,25 @@ class CircleCursor extends StatefulWidget {
     this.outerPointerDelay,
   });
 
+  /// Child Widget
   final Widget child;
+
+  /// Determines the color of the inner pointer.
   final Color? innerPointerColor;
+
+  /// Determines the radius of the inner pointer. Conventionally, the [innerPointerRadius] should be the smaller than [outerPointerRadius].
   final double? innerPointerRadius;
+
+  /// Determines the color of the outer pointer.
   final Color? outerPointerColor;
+
+  /// Determines the radius of the outer pointer. Conventionally, the [outerPointerRadius] should be the greater than [innerPointerRadius].
   final double? outerPointerRadius;
+
+  /// Determines the width of the border of outer pointer.
   final double? outerPointerWidth;
+
+  /// Determines the delay of the outer pointer to reach the mouse position..
   final Duration? outerPointerDelay;
 
   @override
