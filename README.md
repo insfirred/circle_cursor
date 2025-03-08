@@ -1,10 +1,13 @@
 # CircleCursor 🎯
+![final](https://github.com/user-attachments/assets/eafa85e6-e199-4077-8427-adc5b50d83db)
 
-![Preview](https://github.com/user-attachments/assets/a76317aa-c78e-499b-b985-fde72abf9a7a)
+
 
 A Flutter package that replaces the default mouse cursor with a smooth and customizable circular pointer. It enhances UI interactions with an inner and outer pointer effect.
 
 ##### Built with ❤️ for Flutter Web by Kalash Saini.
+
+
 
 
 
